@@ -6,8 +6,8 @@
     <title>Abdalla Portfolio</title>
     <link rel="stylesheet" href="output.css"> 
 </head>
-<body class="bg-slate-800">
-        <!-- Navigation Section -->
+<body class="bg-slate-800 m-0 p-0">
+    <!-- Navigation Section -->
     <nav class="flex mx-auto justify-between items-center bg-slate-800 px-10 py-2">
         <div>
             <img class="w-16 h-16 rounded-full" src="images/profile_img.jpg" alt="">
@@ -60,17 +60,21 @@
     </div>
 
     <!-- Features Section -->
-     <div class="mx-auto md:max-w-[1100px] max-w-[350px] py-8">
+    <div class="mx-auto md:max-w-[1100px] max-w-[350px] py-8">
         <div>
-            <h4 class="text-blue-600 text-center text-2xl">FEATURES</h4>
-            <h1 class="text-white text-center text-4xl font-bold">What I Do</h1>    
+            <h4 class="subtitle">
+                FEATURES
+            </h4>
+            <h1 class="title">
+                What <span class="underline underline-offset-8 decoration-blue-600">I Do</span>
+            </h1>    
         <div class="flex justify-between items-center space-x-8">
 
             <!-- Features Card 1 -->
-            <div class="flex-1 border border-slate-300 rounded-2xl p-12 w-[350px] h-[400px] mt-12 hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-slate-500">
+            <div class="card">
                 <img class="w-35 h-35" src="/src/images/service-1.png" alt="">
                 <h2 class="text-white text-2xl font-bold pt-4">
-                    App Development
+                    Web Development
                 </h2>
                 <p class="text-white text-light pt-3">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nostrum labore ipsam, numquam voluptatibus ea ipsum necessitatibus voluptates ipsa sed!
@@ -78,10 +82,10 @@
             </div>
 
             <!-- Features Card 2 -->
-            <div class="flex-1 border border-slate-300 rounded-2xl p-12 w-[350px] h-[400px] mt-12 hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-slate-500">
-                <img class="w-35 h-35" src="/src/images/service-1.png" alt="">
+            <div class="card">
+                <img class="w-35 h-35" src="/src/images/service-2.svg" alt="">
                 <h2 class="text-white text-2xl font-bold pt-4">
-                    App Development
+                    SEO Management
                 </h2>
                 <p class="text-white text-light pt-3">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nostrum labore ipsam, numquam voluptatibus ea ipsum necessitatibus voluptates ipsa sed!
@@ -89,8 +93,8 @@
             </div>
 
             <!-- Features Card 3 -->
-            <div class="flex-1 border border-slate-300 rounded-2xl p-12 w-[350px] h-[400px] mt-12 hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-slate-500">
-                <img class="w-35 h-35" src="/src/images/service-1.png" alt="">
+            <div class="card">
+                <img class="w-35 h-35" src="/src/images/service-3.svg" alt="">
                 <h2 class="text-white text-2xl font-bold pt-4">
                     App Development
                 </h2>
@@ -99,6 +103,92 @@
                 </p>
             </div>
         </div>
-     </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="mt-28">
+        <h4 class="subtitle">OUR SERVICES</h4>
+        <h1 class="title">My <span class="underline underline-offset-8 decoration-blue-600">Portfolio</span></h1>    
+
+        <div class="w-[1100px] mx-auto grid grid-cols-3 gap-6 ">
+            <!-- Portfolio Card 1 -->
+            <div class="w-[350px] h-[460px] mt-12 bg-slate-900 rounded-2xl hover:shadow-lg hover:shadow-slate-600 hover:translate-y-[-10px] transition-transform duration-300">
+                <img class="port1 rounded-3xl p-4" src="/src/images/port_nft.jpg" alt="">
+                <h2 class="text-white text-2xl font-bold px-4">
+                    NFT Dashboard Application Development
+                </h2>
+                <p class="text-white text-light px-4 py-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nostrum labore ipsam, numquam voluptatibus ea ipsum necessitatibus voluptates ipsa sed!
+                </p>
+            </div>
+
+            <!-- Portfolio Card 2 -->
+           <div class="w-[350px] h-[460px] mt-12 bg-slate-900 rounded-2xl hover:shadow-lg hover:shadow-slate-600 hover:translate-y-[-10px] transition-transform duration-300">
+                <img class="port2 rounded-3xl p-4" src="/src/images/port_food.png" alt="">
+                <h2 class="text-white text-2xl font-bold px-4">
+                    Online Food Delivery Mobile UI/UX Design
+                </h2>
+                <p class="text-white text-light px-4 py-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nostrum labore ipsam, numquam voluptatibus ea ipsum necessitatibus voluptates ipsa sed!
+                </p>
+            </div>
+
+            <!-- Portfolio Card 3 -->
+            <div class="w-[350px] h-[460px] mt-12 bg-slate-900 rounded-2xl hover:shadow-lg hover:shadow-slate-600 hover:translate-y-[-10px] transition-transform duration-300">
+                <img class="port3 rounded-3xl p-4" src="/src/images/port_landing.jpg" alt="">
+                <h2 class="text-white text-2xl font-bold px-4">
+                    Mobile Application Landing Page Design
+                </h2>
+                <p class="text-white text-light px-4 py-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nostrum labore ipsam, numquam voluptatibus ea ipsum necessitatibus voluptates ipsa sed!
+                </p>
+            </div>
+
+            <!-- Portfolio Card 4 -->
+            <div class="w-[350px] h-[460px] mt-12 bg-slate-900 rounded-2xl hover:shadow-lg hover:shadow-slate-600 hover:translate-y-[-10px] transition-transform duration-300">
+                <img class="port4 rounded-3xl p-4" src="/src/images/port_rest.jpg" alt="">
+                <h2 class="text-white text-2xl font-bold px-4">
+                    Restaurant Mobile Application Figma Design
+                </h2>
+                <p class="text-white text-light px-4 py-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nostrum labore ipsam, numquam voluptatibus ea ipsum necessitatibus voluptates ipsa sed!
+                </p>
+            </div>
+
+            <!-- Portfolio Card 5 -->
+           <div class="w-[350px] h-[460px] mt-12 bg-slate-900 rounded-2xl hover:shadow-lg hover:shadow-slate-600 hover:translate-y-[-10px] transition-transform duration-300">
+                <img class="port5 rounded-3xl p-4" src="/src/images/port_travel.jpg" alt="">
+                <h2 class="text-white text-2xl font-bold px-4">
+                    Travel App Design Creativity and Application
+                </h2>
+                <p class="text-white text-light px-4 py-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nostrum labore ipsam, numquam voluptatibus ea ipsum necessitatibus voluptates ipsa sed!
+                </p>
+            </div>
+
+            <!-- Portfolio Card 6 -->
+            <div class="w-[350px] h-[460px] mt-12 bg-slate-900 rounded-2xl hover:shadow-lg hover:shadow-slate-600 hover:translate-y-[-10px] transition-transform duration-300">
+                <img class="port6 rounded-3xl p-4" src="/src/images/port_workout.jpg" alt="">
+                <h2 class="text-white text-2xl font-bold px-4">
+                    Workout Dashboard Design and Development
+                </h2>
+                <p class="text-white text-light px-4 py-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nostrum labore ipsam, numquam voluptatibus ea ipsum necessitatibus voluptates ipsa sed!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <div class="bg-slate-900 mt-20 py-5 mx-0 px-0 w-full h-[500px] rounded-3xl">
+        <div>
+            <h4 class="subtitle">
+                CHOOSE A PLAN
+            </h4>
+            <h1 class="title">
+                Get <span class="underline underline-offset-8 decoration-blue-600">Started</span>
+            </h1>   
+        </div>         
+    </div>
 </body>
 </html>

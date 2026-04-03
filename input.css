@@ -3,3 +3,15 @@
 @custom-variant hover (&:hover);
 @custom-variant active (&:active);
 @custom-variant focus (&:focus);
+
+@layer components {
+    .card {
+        @apply flex-1 border border-slate-300 rounded-2xl p-12 w-[350px] h-[400px] mt-12 hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-slate-500;
+    }
+    .title{
+        @apply text-white text-center text-4xl font-bold; 
+    }
+    .subtitle{
+        @apply text-blue-600 text-center text-2xl;
+    }
+}
